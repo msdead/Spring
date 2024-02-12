@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2314593f-9bd5-486f-aae5-c02cfcba3d53" name="Changes" comment="GB - Spring. Homework 2. Delete by ID">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/ergakov/gb/service/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bjMGS7DKmnygr89hChe5fnZBeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GB-Spring HW2.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IdeaProjects/GB-Java_Junior",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ierga\IdeaProjects\GB-Spring\GB-Spring-Homework2" />
+      <recent name="C:\Users\Ierga\IdeaProjects\GB-Spring\GB-Spring-Homework2\src\main\resources" />
+      <recent name="C:\Users\Ierga\IdeaProjects\GB-Spring\GB-Spring-Homework2\src\main\java\ru\ergakov\gb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GB-Spring HW2">
+    <configuration name="GB-Spring HW2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.ergakov.gb.HW2Application" />
+      <module name="GB-Spring-Homework2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GB-Spring-Homework2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.ergakov.gb.HW2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2314593f-9bd5-486f-aae5-c02cfcba3d53" name="Changes" comment="" />
+      <created>1706723960982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706723960982</updated>
+      <workItem from="1706723962034" duration="1751000" />
+      <workItem from="1706725731443" duration="9299000" />
+    </task>
+    <task id="LOCAL-00001" summary="GB - Spring. Homework 2. Start">
+      <option name="closed" value="true" />
+      <created>1706725537512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706725537512</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GB - Spring. Homework 2. Delete by ID">
+      <option name="closed" value="true" />
+      <created>1706727674235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706727674235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GB - Spring. Homework 2. Start" />
+    <MESSAGE value="GB - Spring. Homework 2. Delete by ID" />
+    <option name="LAST_COMMIT_MESSAGE" value="GB - Spring. Homework 2. Delete by ID" />
+  </component>
+</project>

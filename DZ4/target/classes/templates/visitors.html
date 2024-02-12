@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visitor Registration</title>
+</head>
+<body>
+<h1>Посетители</h1>
+<h2>Зарегистрированные посетители:</h2>
+<table>
+    <tr>
+        <th>ФИО</th>
+        <th>Дата и время посещения</th>
+    </tr>
+    <tr th:each="visitor: ${visitors}">
+        <td th:text="${visitor.fullName}"></td>
+        <td th:text="${visitor.dateAndTime}"></td>
+    </tr>
+</table>
+<h2>Зарегистрировать посетителя</h2>
+<form action="/visitors" method="post">
+    <table style="margin: auto">
+        <tr>
+            ФИО: <input type="text" name="fullName">
+        </tr>
+        <tr>
+            Дата и время: <input type="text" name="dateAndTime">
+        </tr>
+    </table>
+    <button type="submit">Зарегистрировать</button>
+</form>
+<form style="padding: 5%" action="/">
+    <input type="submit" value="ВЕРНУТЬСЯ">
+</form>
+</body>
+</html>
