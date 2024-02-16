@@ -6,20 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DZ1" />
-        <module name="DZ3" />
-        <module name="DZ2" />
-        <module name="DZ5" />
-        <module name="DZ4" />
+        <module name="GbSpringHomework5" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="DZ2" options="-parameters" />
-      <module name="DZ3" options="-parameters" />
-      <module name="DZ4" options="-parameters" />
-      <module name="DZ5" options="-parameters" />
+      <module name="GbSpringHomework5" options="-parameters" />
     </option>
   </component>
 </project>
