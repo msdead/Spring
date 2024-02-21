@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Стартовая страница</title>
+</head>
+<body>
+
+<h1>Стартовая страница</h1>
+
+<br><br>
+
+<table>
+    <tr>
+        <th>
+            <form action="/public-data">
+                <button type="submit">public-data</button>
+            </form>
+        </th>
+        <th>
+            <form action="/private-data">
+                <button type="submit">private-data</button>
+            </form>
+        </th>
+    </tr>
+</table>
+
+<br><br>
+
+<form sec:authorize="isAuthenticated()" class="link" th:action="@{/logout}" method="post">
+    <input class="link" type="submit" value="Logout"/>
+</form>
+
+</body>
+</html>

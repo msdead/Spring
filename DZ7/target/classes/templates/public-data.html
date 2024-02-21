@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Публичная страница</title>
+</head>
+<body>
+
+<h1>Эту страницу видят все аутентифицированные пользователи</h1>
+
+<h3 sec:authorize="hasRole('USER')">Эту надпись видят все пользователи</h3>
+<h3 sec:authorize="hasRole('ADMIN')">Эту надпись видит только админ</h3>
+
+<br><br>
+
+<form class="link" th:action="@{/logout}" method="post">
+    <input class="link" type="submit" value="Logout"/>
+</form>
+
+</body>
+</html>
