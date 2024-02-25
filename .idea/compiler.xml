@@ -9,6 +9,7 @@
         <module name="DZ7" />
         <module name="DZ6" />
         <module name="untitled" />
+        <module name="DZ8" />
         <module name="DZ1" />
         <module name="DZ3" />
         <module name="DZ2" />
@@ -25,6 +26,7 @@
       <module name="DZ5" options="-parameters" />
       <module name="DZ6" options="-parameters" />
       <module name="DZ7" options="-parameters" />
+      <module name="DZ8" options="-parameters" />
     </option>
   </component>
 </project>
