@@ -13,7 +13,27 @@
         <option value="$PROJECT_DIR$/DZ7/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/DZ8/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled1/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/Books/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/Tasks/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/actsLog/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/apigateway/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/users/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ9/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/HW9/actsLog/pom.xml" />
+        <option value="$PROJECT_DIR$/HW9/apigateway/pom.xml" />
+        <option value="$PROJECT_DIR$/HW9/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/HW9/users/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/untitled1/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
