@@ -13,35 +13,37 @@
         <module name="DZ7" />
         <module name="DZ6" />
         <module name="DZ8" />
-        <module name="Task_1_1" />
-        <module name="actsLog (1) (ru.ergakov.gb)" />
-        <module name="eureka" />
         <module name="actsLog" />
         <module name="eureka-server" />
         <module name="users" />
         <module name="apigateway" />
+        <module name="DZ10" />
         <module name="DZ1" />
         <module name="DZ3" />
         <module name="DZ2" />
         <module name="DZ5" />
         <module name="DZ4" />
-        <module name="users (1) (ru.ergakov.gb)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="actsLog (1) (ru.ergakov.gb)" target="17" />
       <module name="ApiGateway" target="17" />
       <module name="Books" target="17" />
       <module name="DZ9" target="20" />
+      <module name="eureka" target="17" />
       <module name="EurekaServer" target="17" />
+      <module name="Task_1_1" target="17" />
       <module name="Tasks" target="1.5" />
       <module name="untitled" target="20" />
       <module name="untitled1" target="20" />
+      <module name="users (1) (ru.ergakov.gb)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
       <module name="Books" options="-parameters" />
+      <module name="DZ10" options="-parameters" />
       <module name="DZ2" options="-parameters" />
       <module name="DZ3" options="-parameters" />
       <module name="DZ4" options="-parameters" />
