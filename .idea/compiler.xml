@@ -11,8 +11,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DZ7" />
+        <module name="EurekaServer" />
+        <module name="" />
         <module name="DZ6" />
         <module name="DZ8" />
+        <module name="Tasks" />
         <module name="actsLog" />
         <module name="eureka-server" />
         <module name="users" />
@@ -20,20 +23,19 @@
         <module name="DZ10" />
         <module name="DZ1" />
         <module name="DZ3" />
+        <module name="Books" />
         <module name="DZ2" />
         <module name="DZ5" />
         <module name="DZ4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="" target="17" />
       <module name="actsLog (1) (ru.ergakov.gb)" target="17" />
-      <module name="ApiGateway" target="17" />
-      <module name="Books" target="17" />
+      <module name="DZ11" target="20" />
       <module name="DZ9" target="20" />
       <module name="eureka" target="17" />
-      <module name="EurekaServer" target="17" />
       <module name="Task_1_1" target="17" />
-      <module name="Tasks" target="1.5" />
       <module name="untitled" target="20" />
       <module name="untitled1" target="20" />
       <module name="users (1) (ru.ergakov.gb)" target="17" />
@@ -41,6 +43,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="" options="-parameters" />
       <module name="ApiGateway" options="-parameters" />
       <module name="Books" options="-parameters" />
       <module name="DZ10" options="-parameters" />
@@ -53,7 +56,7 @@
       <module name="DZ8" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
       <module name="Task_1_1" options="-parameters" />
-      <module name="Tasks" options="" />
+      <module name="Tasks" options="-parameters" />
       <module name="actsLog" options="-parameters" />
       <module name="actsLog (1) (ru.ergakov.gb)" options="-parameters" />
       <module name="apigateway" options="-parameters" />

@@ -28,6 +28,11 @@
         <option value="$PROJECT_DIR$/HW9/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/HW9/users/pom.xml" />
         <option value="$PROJECT_DIR$/DZ10/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ11/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ11/ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ11/Books/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ11/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/DZ11/Tasks/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
